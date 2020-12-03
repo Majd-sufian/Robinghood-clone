@@ -8,3 +8,16 @@ body {
 .App {
   text-align: center;
 }
+
+.app__body {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app__container {
+  height: 100%px;
+  width: 1024px;
+  display: flex;
+}
