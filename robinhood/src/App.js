@@ -8,9 +8,7 @@ function App() {
       <div className="app__header">
         <Header />
       </div>
-      <div className="app__body">
-        <Body />
-      </div>
+      <div className="app__body"></div>
     </div>
   );
 }
@@ -20,3 +18,4 @@ export default App;
 // app
 //   app_headder
 //   app_Body
+// - newsfeed
