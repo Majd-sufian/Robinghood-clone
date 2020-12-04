@@ -1,5 +1,5 @@
 import React from "react";
-import "./Newsfeed.css";
+import "../style/Newsfeed.css";
 
 function Newsfeed() {
   return <div className="newsfeed"></div>;
@@ -9,5 +9,5 @@ export default Newsfeed;
 
 // Newsfeed;
 // Newsfeed__container;
-newsfeed__charSection;
-newsfeed__portfolio;
+// newsfeed__charSection;
+// newsfeed__portfolio;

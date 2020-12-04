@@ -1,7 +1,7 @@
 import "./App.css";
-import Header from "./Header";
-import Newsfeed from "./Newsfeed";
-import Stats from "./Stats";
+import Header from "./component/Header";
+import Newsfeed from "./component/Newsfeed";
+import Stats from "./component/Stats";
 
 function App() {
   return (

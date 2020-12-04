@@ -1,6 +1,6 @@
 import React from "react";
-import "./Header.css";
-import Logo from "./robinhood.svg";
+import "../style/Header.css";
+import Logo from "../robinhood.svg";
 
 function Header() {
   return (
