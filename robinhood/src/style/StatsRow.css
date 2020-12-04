@@ -1,0 +1,31 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 15px;
+  margin-botton: 15px;
+  font-weight: 500;
+}
+
+.row__intro > h1 {
+  margin: 0;
+  font-size: 20px;
+  text-align: left;
+}
+
+.row__intro > p {
+  margin-top: 0;
+  font-size: 12px;
+  text-align: left;
+}
+
+.row__price {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.row__percentage {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #5ac53b;
+}

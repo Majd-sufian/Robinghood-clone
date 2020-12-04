@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../style/Stats.css";
 import Axios from "axios";
+import StatsRow from "./StatsRow";
 
 function Stats() {
   const [stockData, setstockData] = useState([]);
@@ -43,7 +44,11 @@ function Stats() {
           <p>Stocks</p>
         </div>
         <div className="stats__content">
-          <div className="stats__rows">{/* for the current Stocks */}</div>
+          <div className="stats__rows">
+            {stockData.map((stock) => (
+              <StatsRow />
+            ))}
+          </div>
         </div>
       </div>
     </div>
