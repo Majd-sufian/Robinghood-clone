@@ -1,3 +1,7 @@
 .lineGraph {
   height: 200px;
 }
+
+.lineGraph > canvas {
+  width: 60% !important;
+}

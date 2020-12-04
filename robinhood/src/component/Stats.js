@@ -11,3 +11,5 @@ export default Stats;
 // stats__container
 // stats__header
 // stats__content
+// - stats__rows for our current stocks
+// stats__header for list

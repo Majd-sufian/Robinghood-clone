@@ -1,6 +1,6 @@
 .newsfeed {
   flex: 0.7;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
 }
 
 .newsfeed__portfolio {
@@ -13,4 +13,13 @@
 
 .newsfeed__portfolio > p {
   margin-top: 0;
+}
+
+.newsfeed__chart {
+  width: 100%;
+}
+
+.newsfeed__chartSection {
+  display: flex;
+  flex-direction: column;
 }
