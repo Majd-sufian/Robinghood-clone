@@ -2,16 +2,12 @@ import React from "react";
 import "./Newsfeed.css";
 
 function Newsfeed() {
-  return (
-    <div className="newsfeed">
-      {/* <h1>test</h1>
-       */}
-      {/* gfasdg sdfgasd fasd fasd fasd */}
-    </div>
-  );
+  return <div className="newsfeed"></div>;
 }
 
 export default Newsfeed;
 
 // Newsfeed;
 // Newsfeed__container;
+newsfeed__charSection;
+newsfeed__portfolio;
