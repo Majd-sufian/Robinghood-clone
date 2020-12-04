@@ -6,3 +6,8 @@ function Stats() {
 }
 
 export default Stats;
+
+// stats
+// stats__container
+// stats__header
+// stats__content
